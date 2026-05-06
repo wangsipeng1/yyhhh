@@ -1,0 +1,6 @@
+{
+  "name": "Remix: NoteSpace",
+  "description": "An Android-style notepad app with groups, rich text formatting, fonts, colors, images, recycle bin, and a dedicated drawing partition for arrows and circles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Tiptap Editor Base Styles */
+.tiptap {
+  outline: none !important;
+  min-height: 100%;
+}
+
+.tiptap p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.tiptap img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.tiptap.ProseMirror-focused {
+  outline: none;
+}
+
+.tiptap [style*="font-family"] {
+  /* Ensure browser doesn't override inline styles */
+  font-family: inherit; 
+}
